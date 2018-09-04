@@ -3,6 +3,7 @@ package cap.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.HashMap;
@@ -11,9 +12,15 @@ import java.util.Map;
 @Controller
 @RequestMapping("/")
 public class HelloController {
-    @RequestMapping("/test")
-    public String test(Model model){
-        model.addAttribute("data","SpringMVC");
+    @RequestMapping(value="/test",method= RequestMethod.GET)
+    public ModelAndView test(){
+        ModelAndView modelAndView=new ModelAndView();
+        modelAndView.setViewName("index");
+        return modelAndView;
+    }
+    @RequestMapping(value = "/test", method = RequestMethod.POST)
+    public String test(Model model) {
+        model.addAttribute("data", "SpringMVC");
         return "test";
     }
     @RequestMapping("/test2")
