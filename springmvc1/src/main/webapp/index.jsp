@@ -1,5 +1,6 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
-<h2>Hello World!Skr skr skr skr!</h2>
+<a href="sayHi">访问表单</a>
 </body>
 </html>
