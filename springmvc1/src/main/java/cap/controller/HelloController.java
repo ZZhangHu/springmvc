@@ -1,6 +1,6 @@
 package cap.controller;
 
-import cap.controller.bean.Admin;
+import cap.bean.Admin;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
