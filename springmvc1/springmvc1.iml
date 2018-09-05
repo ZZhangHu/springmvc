@@ -43,5 +43,12 @@
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: taglibs:standard:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:3.2.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.struts.xwork:xwork-core:2.3.20" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.2" level="project" />
+    <orderEntry type="library" name="Maven: ognl:ognl:3.0.6" level="project" />
+    <orderEntry type="library" name="Maven: javassist:javassist:3.11.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm-commons:5.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.ow2.asm:asm-tree:5.0.2" level="project" />
   </component>
 </module>
