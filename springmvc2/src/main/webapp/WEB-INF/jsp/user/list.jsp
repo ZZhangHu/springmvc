@@ -4,9 +4,6 @@
     <title>Title</title>
 </head>
 <body>
-<form action="sayHi" method="post">
-    <input type="text" name="name">
-    <input type="submit" value="submit">
-</form>
+list
 </body>
 </html>
