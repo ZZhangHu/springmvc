@@ -1,40 +1,42 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 package cap.service.impl;
 
 import cap.cap.service.AdminService;
 import cap.mapper.AdminMapper;
 import cap.model.Admin;
-import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 import java.util.List;
+import javax.annotation.Resource;
+import org.springframework.stereotype.Service;
 
 @Service
 public class AdminServiceImpl implements AdminService {
     @Resource
     private AdminMapper adminMapper;
 
-    @Override
+    public AdminServiceImpl() {
+    }
+
     public Admin selectById(Integer id) {
-        return adminMapper.selectById(id);
+        return this.adminMapper.selectById(id);
     }
 
-    @Override
     public List<Admin> selectAll() {
-        return adminMapper.selectAll();
+        return this.adminMapper.selectAll();
     }
 
-    @Override
     public int addAdmin(Admin admin) {
-        return adminMapper.addAdmin(admin);
+        return this.adminMapper.addAdmin(admin);
     }
 
-    @Override
     public int updateAdmin(Admin admin) {
-        return adminMapper.updateAdmin(admin);
+        return this.adminMapper.updateAdmin(admin);
     }
 
-    @Override
     public int deleteAdmin(Integer id) {
-        return adminMapper.deleteAdmin(id);
+        return this.adminMapper.deleteAdmin(id);
     }
 }

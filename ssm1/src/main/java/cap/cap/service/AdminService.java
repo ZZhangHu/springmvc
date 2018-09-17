@@ -1,19 +1,21 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 package cap.cap.service;
 
-
 import cap.model.Admin;
-
 import java.util.List;
 
 public interface AdminService {
-    Admin selectById(Integer id);
+    Admin selectById(Integer var1);
 
     List<Admin> selectAll();
 
-    int addAdmin(Admin admin);
+    int addAdmin(Admin var1);
 
-    int updateAdmin(Admin admin);
+    int updateAdmin(Admin var1);
 
-    int deleteAdmin(Integer id);
-
+    int deleteAdmin(Integer var1);
 }
